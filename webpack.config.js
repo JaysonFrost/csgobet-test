@@ -45,9 +45,9 @@ module.exports = {
     },
     plugins: [
         new HtmlWebPackPlugin({
-            template: "./src/public/index.html",
+            template: "./public/index.html",
             filename: "./index.html",
-            favicon: "./src/public/favicon.ico"
+            favicon: "./public/favicon.ico"
         })
     ]
 };

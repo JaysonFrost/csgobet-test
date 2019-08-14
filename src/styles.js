@@ -24,6 +24,10 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         background: transparent;
     }
+
+    input {
+        outline: none;
+    }
 `
 
 export default GlobalStyle;
