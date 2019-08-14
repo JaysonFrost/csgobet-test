@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Navigation = styled.div `
+export const Navigation = styled.div`
     min-height: 85px;
     display: flex;
     flex-wrap: wrap;
@@ -8,7 +8,7 @@ export const Navigation = styled.div `
     padding: 0 5%;
 `;
 
-export const NavSide = styled.div `
+export const NavSide = styled.div`
     display: flex;
     align-items: center;
 
@@ -17,7 +17,7 @@ export const NavSide = styled.div `
     }
 `;
 
-export const Support = styled.button `
+export const Support = styled.button`
     transition: all 0.25s;
     min-width: 43px;
     height: 43px;
@@ -39,7 +39,7 @@ export const Support = styled.button `
     }
 `;
 
-export const Socials = styled.div `
+export const Socials = styled.div`
     display: flex;
     margin-right: 5px;
 
@@ -48,7 +48,7 @@ export const Socials = styled.div `
     }
 `;
 
-export const Social = styled.svg `
+export const Social = styled.svg`
     fill: #818d9e;
     width: 22px;
     margin-left: 30px;
