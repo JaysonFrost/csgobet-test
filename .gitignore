@@ -1,0 +1,19 @@
+# Dependency directory
+node_modules/
+
+# MacOS
+.DS_Store
+
+# Build
+dist/
+build/Release
+build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+#IntelliJ
+.idea
